@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Persons.Data/1.0.0": {
+        "dependencies": {
+          "Persons.Core": "1.0.0"
+        },
+        "runtime": {
+          "Persons.Data.dll": {}
+        }
+      },
+      "Persons.Core/1.0.0": {
+        "runtime": {
+          "Persons.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Persons.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Persons.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
